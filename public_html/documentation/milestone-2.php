@@ -7,10 +7,21 @@
 <body>
 <h1>Milestone 2</h1>
 <h2>Content Strategy</h2>
-<p>Welcome: Hello! My name is Nohemi Tarango. I am a Software Developer.</p>
-<p>About Me: </p>
-<p>Portfolio: </p>
-<p>Contact: </p>
+<p>Welcome: Hello! My name is Nohemi Tarango, and I am a Web Developer.</p>
+<h2>About Me</h2>
+<p>My name is Nohemi Tarango. I am a student at Deep Dive Coding taking the Fullstack Web Development Bootcamp.
+	This is my personal portfolio. My portfolio displays all that I've learned and accomplished while at Deep Dive.
+	During my time at Deep Dive I've learned MySQL, Object-Oriented Programming, PHP, HTML5, CSS, and JavaScript.</p>
+<h2>Portfolio</h2>
+<p></p>
+<h2>Contact</h2>
+<div>
+	<ul>
+		<li>Email: Nohemi5270@gmail.com</li>
+		<li>LinkedIn: Nohemi Tarango</li>
+		<li>Github: Ntarango52</li>
+	</ul>
+</div>
 <h1>Wireframes</h1>
 <h2>Mobile Layout</h2>
 <img src="New%20Wireframe%204.png" alt="picture"/>
