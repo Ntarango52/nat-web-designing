@@ -11,7 +11,7 @@
 <h2>About Me</h2>
 <p>My name is Nohemi Tarango. I am a student at Deep Dive Coding taking the Fullstack Web Development Bootcamp.
 	This is my personal portfolio. My portfolio displays all that I've learned and accomplished while at Deep Dive.
-	During my time at Deep Dive I've learned MySQL, Object-Oriented Programming, PHP, HTML5, CSS, and JavaScript.</p>
+	During my time at Deep Dive I've learned MySQL 5.7, Object-oriented programming, Agile methodologies, PHP 7.2, HTML5, CSS 3, JavaScript, Bootstrap 4 and the React framework.</p>
 <h2>Portfolio</h2>
 <p></p>
 <h2>Contact</h2>
