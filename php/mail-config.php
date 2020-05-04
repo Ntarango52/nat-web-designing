@@ -9,21 +9,21 @@
  * @param string $mailgunApiKey your mailgun domain relay.
  * @param array $MAIL_RECIPIENTS array of email addresses and corresponding recipient names to send form responses to
  *
- * @author Rochelle Lewis <rlewis37@cnm.edu>
+ * @author Nohemi Tarango <ntarango3@cnm.edu>
  *
  * This file contains sensitive information and should ALWAYS be gitignored!
  **/
 
 //mailgun API Key authorization
 
-$mailgunApiKey = "-- MAILGUN API KEY --";
-$mailgunDomain = " --MAILGUN DOMAIN NAME --";
+$mailgunApiKey = "pubkey-2d97ea6954e8805c1e726b80606112a4";
+$mailgunDomain = "natwebdesigning.com";
 
 
 // your Google reCAPTCHA keys here
 // your Google reCAPTCHA keys here
-$siteKey = '-- reCAPTCHA SITE KEY --';
-$secret = '-- reCAPTCHA SECRET KEY --';
+$siteKey = '6LcdBewUAAAAAOv34FT5vcib0TSdj6t6sFc4Rw_I';
+$secret = '6LcdBewUAAAAAJ8SzP3vMZRZa-yzAYI3rybCF-cI';
 
 /**
  * attach the recipients to the message
