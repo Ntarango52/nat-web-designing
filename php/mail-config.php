@@ -9,7 +9,7 @@
  * @param string $mailgunApiKey your mailgun domain relay.
  * @param array $MAIL_RECIPIENTS array of email addresses and corresponding recipient names to send form responses to
  *
- * @author Nohemi Tarango <ntarango3@cnm.edu>
+ * @author Rochelle Lewis <rlewis37@cnm.edu>
  *
  * This file contains sensitive information and should ALWAYS be gitignored!
  **/
@@ -30,5 +30,5 @@ $secret = '6LcdBewUAAAAAJ8SzP3vMZRZa-yzAYI3rybCF-cI';
  * notice this an array that can include or omit the the recipient's real name
  * use the recipients' real name where possible; this reduces the probability of the Email being marked as spam
  **/
-$MAIL_RECIPIENTS = [ "mail@email.com" => "Recipient Name"];
-$MAIL_RECIPIENT = ["mail@mail.com"];
+$MAIL_RECIPIENTS = [ "nohemi5270@gmail.com" => "Nohemi Tarango"];
+$MAIL_RECIPIENT = ["nohemi5270@gmail.com"];
