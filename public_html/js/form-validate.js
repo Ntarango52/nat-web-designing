@@ -5,7 +5,7 @@ $(document).ready(function(){
 	 *
 	 * This function provides front-end validation for your form.
 	 * If all tests set up here pass, the form data is AJAX submitted
-	 * to the mailer.php file.
+	 * to the index.php file.
 	 *
 	 * Update this file as needed for your form.
 	 * All ids and name values must match up to your form here.
@@ -14,7 +14,7 @@ $(document).ready(function(){
 	 **/
 
 	/* begin validate function here */
-	$("#my-contact-form").validate({
+	$("#nat-form").validate({
 
 		// setup handling of form errors
 		debug: true,
@@ -32,6 +32,9 @@ $(document).ready(function(){
 				email: true,
 				required: true
 			},
+			subject: {
+				required: true
+			},
 			message: {
 				required: true,
 				maxlength: 2000
@@ -47,6 +50,9 @@ $(document).ready(function(){
 				email: "Please enter a valid email address.",
 				required: "Please enter a valid email address."
 			},
+			subject: {
+				required: "Please enter a subject."
+			},
 			message: {
 				required: "Please enter a message.",
 				maxlength: "2000 characters max."
@@ -55,9 +61,9 @@ $(document).ready(function(){
 
 		// AJAX submit the form data to back end if rules pass
 		submitHandler: function(form) {
-			$("#my-contact-form").ajaxSubmit({
+			$("#nat-form").ajaxSubmit({
 				type: "POST",
-				url: $("#my-contact-form").attr("action"),
+				url: $("#nat-form").attr("action"),
 
 				success: function(ajaxOutput) {
 					// clear the output area's formatting
@@ -68,7 +74,7 @@ $(document).ready(function(){
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
-						$("#my-contact-form")[0].reset();
+						$("#nat-form")[0].reset();
 					}
 				}
 			})

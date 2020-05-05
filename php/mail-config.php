@@ -16,7 +16,7 @@
 
 //mailgun API Key authorization
 
-$mailgunApiKey = "pubkey-2d97ea6954e8805c1e726b80606112a4";
+$mailgunApiKey = "d9dc46f7e22b88ebe7a8970071020217-f135b0f1-8e770adb";
 $mailgunDomain = "natwebdesigning.com";
 
 
