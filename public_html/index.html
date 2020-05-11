@@ -7,6 +7,7 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/background-image.css"/>
 
 	<!-- LINK YOUR CSS FILES DOWN HERE -->
 	<script src="css/nat.css"></script>
@@ -24,7 +25,17 @@
 	<!-- Your JavaScript Form Validator -->
 	<script src="js/form-validate.js"></script>
 
-	<title>Nat Web Designs</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166091645-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-166091645-1');
+	</script>
+
+	<title>Nat Web Designing</title>
 </head>
 <body>
 	<!-- Jumbotron -->
@@ -38,38 +49,44 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="nav navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Hello</a>
+						<a class="nav-link" href="#Hello">Hello</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">About Me</a>
+						<a class="nav-link" href="#About Me">About Me</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Portfolio</a>
+						<a class="nav-link" href="#Portfolio">Portfolio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact Me</a>
+						<a class="nav-link" href="#Contact Me">Contact Me</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
 
-	<div class="container py-5">
+	<div class="container py-5 big-banner">
 
-		<div class="jumbotron">
-			<h1 class="display-4">Nohemi Tarango</h1>
-			<p class="lead">Web Developer</p>
-			<p>Personal Portfolio</p>
+		<div class="container py-4">
+		<div class="container"></div>
+			<div class="col-6"></div>
+			<p id="Hello"></p>
+				<h1 class="text-center">Nohemi Tarango</h1>
+				<p class="text-center">Web Developer</p>
+			<div class="text-center">
+				<p>Personal Portfolio</p>
+			</div>
 		</div>
 	</div>
 
-<div class="container-fluid mt-2" style="background-color: bisque;">
+<div class="container-fluid mt-2" style="background-color: bisque">
 <div class="container">
 	<div class="row py-5">
 		<div class="col-md-3 centered">
 			<img class="resize" src="images/Nohemi.png" alt="icon" width="80%" height="90%">
 		</div>
 		<div class="col-md-9 py-5">
+			<p id="About Me">This is my about me.</p>
 			<p>
 				My name is Nohemi Tarango. I am a student at Deep Dive Coding taking the Fullstack Web Development Bootcamp.
 				This is my personal portfolio. My portfolio displays all that I've learned and accomplished while at Deep Dive.
@@ -88,6 +105,7 @@
 			<img class="resize" src="images/html5.png" alt="icon" width="80%" height="80%">
 		</div>
 		<div class="col-md-9 py-5">
+			<p id="Portfolio">This is my portfolio.</p>
 			<p>
 				I've learned and practiced using html. Html is the first thing I learned at Deep Dive Coding. For example,
 				the file where I wrote my code for the website is html. Html is the programming language I've used the most.
@@ -123,7 +141,7 @@
 				<div class="col-md-9 py-5">
 					<p>
 						I use Github everyday to push my code to its website. I use Github for every single one of my projects.
-						I've also collaborated with other people on Github.
+						I've also collaborated with other people on Github. https://github.com/Ntarango52
 					</p>
 				</div>
 			</div>
@@ -135,7 +153,8 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
 <!-- BEGIN CONTACT FORM -->
-<form id="nat-form" method="post" action="../php/">
+<form id="nat-form" method="post" action="../php/" style="background-color: bisque;">
+	<p id="Contact Me">This is the contact form.</p>
 	<div class="form-group">
 		<label for="name">Name</label>
 		<div class="input-group">
